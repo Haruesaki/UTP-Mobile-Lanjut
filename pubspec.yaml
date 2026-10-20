@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  font_awesome_flutter: ^10.7.0
+  font_awesome_flutter: 10.7.0
 
 dev_dependencies:
   flutter_test:
@@ -20,5 +20,14 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # Figtree fonts are not available in workspace, skipping registration per PRD 4.3.3
-
+  fonts:
+    - family: SpotifyFont
+      fonts:
+        - asset: assets/font/SpotifyMix-Regular.ttf
+          weight: 400
+        - asset: assets/font/SpotifyMix-Medium.ttf
+          weight: 500
+        - asset: assets/font/SpotifyMix-Bold.ttf
+          weight: 700
+        - asset: assets/font/SpotifyMix-Extrabold.ttf
+          weight: 800
